@@ -1,11 +1,14 @@
-package testing;
+package testingPpt.jenkinsTest;
 
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
-
-public class Testing2 {
-
-	public static void main( String[] args ) throws FileNotFoundException
+ /**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args ) throws FileNotFoundException
     {
     	final String a ="Hello World";
     	System.setOut(new PrintStream(a));

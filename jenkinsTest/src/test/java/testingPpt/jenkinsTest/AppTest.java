@@ -1,19 +1,21 @@
-package testing;
+package testingPpt.jenkinsTest;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class AppTest {
-
-
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+{
     /**
      * Rigorous Test :-)
      */
     @Test
     public void shouldAnswerWithTrue()
     {
-    	assertEquals("Hello World",testing.Testing2.calculate());
+    	assertEquals("Hello World",testingPpt.jenkinsTest.App.calculate());
     	
         //assertTrue( true );
     }
@@ -21,7 +23,7 @@ public class AppTest {
     @Test
     public void shouldAnswerWithfalse()
     {
-    	assertEquals("Hello World1",testing.Testing2.calculate());
+    	assertEquals("Hello World1",testingPpt.jenkinsTest.App.calculate());
     	
         //assertTrue( true );
     }
@@ -29,7 +31,7 @@ public class AppTest {
     @Test
     public void shouldAnswerWithfalse2()
     {
-    	assertEquals("Hello World1",testing.Testing2.calculate());
+    	assertEquals("Hello World2",testingPpt.jenkinsTest.App.calculate());
     	
         //assertTrue( true );
     }
