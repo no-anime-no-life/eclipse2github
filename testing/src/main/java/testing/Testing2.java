@@ -8,7 +8,7 @@ public class Testing2 {
 	public static void main( String[] args ) throws FileNotFoundException
     {
     	final String a ="Hello World";
-    	System.setOut(new PrintStream(a));
+    	//System.setOut(new PrintStream(a));
         System.out.println( "Hello World!" );
     }
     

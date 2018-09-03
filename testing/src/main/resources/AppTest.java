@@ -24,4 +24,11 @@ public class AppTest {
         //assertTrue( true );
     }
     
+    @Test
+    public void shouldAnswerWithfalse2()
+    {
+    	assertEquals("Hello World1",testingPpt.jenkinsTest.App.calculate());
+    	
+        //assertTrue( true );
+    }
 }
